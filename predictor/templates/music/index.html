@@ -47,15 +47,15 @@
 
 
 
-    <!-- File Upload -->
+    <!-- File Upload STATISTICS-->
     {% include 'music/check_genre.html' %}
 
 
     <!-- Statistics -->
-    <div class="counter" id="statistics">
+    <div class="counter" id="dataset">
         <div class="row">
             <div class="col-lg-12">
-                <h2>STATISTICS</h2>
+                <h2>DATASET</h2>
             </div>
         </div>
         <div class="container" style="margin-top: 3rem;">
@@ -70,7 +70,7 @@
                             <p class="counter-info">Total Music</p>
                         </div>
 
-                        <div class="cell">
+                        {% comment %} <div class="cell">
                             <div class="counter-value number-count" data-count="750">1</div>
                             <p class="counter-info">Training Set</p>
                         </div>
@@ -81,7 +81,7 @@
                         <div class="cell">
                             <div class="counter-value number-count" data-count="73.20">1</div>
                             <p class="counter-info">Accuracy (%)</p>
-                        </div>
+                        </div> {% endcomment %}
                     </div>
                     <!-- end of counter -->
 
